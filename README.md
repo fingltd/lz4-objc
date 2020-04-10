@@ -28,7 +28,7 @@ NSData *compressed4 = [data compressLZ4:LZ4CompressionHighMax]; // use LZ4_compr
 ```objective-c
 NSData *compressed = // some compressed data
 NSData *decompressed1 = [compressed decompressLZ4]; // use LZ4_decompress_safe with a predefined buffer size
-NSData *decompressed1 = [compressed decompressLZ4:1024]; // use LZ4_decompress_safe with a provided buffer size
+NSData *decompressed2 = [compressed decompressLZ4:1024]; // use LZ4_decompress_safe with a provided buffer size
 ```
 
 ## Releases and changelog
