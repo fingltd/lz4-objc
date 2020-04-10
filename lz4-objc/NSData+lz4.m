@@ -84,33 +84,3 @@
 }
 
 @end
-
-
-//@implementation NSData (LZ4Test)
-//
-//+ (void)testLZ4 {
-//
-//    NSString *content =
-//            @"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
-//            "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
-//            "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-//            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat "
-//            "nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui "
-//            "officia deserunt mollit anim id est laborum.";
-//
-//    DDLogInfo(@">>>>>>>>>>>>>>>> LZ4 TEST [BEGIN] <<<<<<<<<<<<<<<<<<");
-//    NSData *data = [content dataUsingEncoding:NSUTF8StringEncoding];
-//    DDLogInfo(@"Original content: %@", content);
-//    DDLogInfo(@"Original size: %@", @(data.length));
-//    DDLogInfo(@"Compressing....");
-//    NSData *compressed = [data compressLZ4:LZ4CompressionFast];
-//    DDLogInfo(@"Compressed size = %@", @(compressed.length));
-//    DDLogInfo(@"Decompressing....");
-//    NSData *decompressed = [compressed decompressLZ4:data.length];
-//    DDLogInfo(@"Decompressed size = %@", @(decompressed.length));
-//    DDLogInfo(@"Decompressed content = %@", [[NSString alloc] initWithData:decompressed encoding:NSUTF8StringEncoding]);
-//    DDLogInfo(@">>>>>>>>>>>>>>>>> LZ4 TEST [END] <<<<<<<<<<<<<<<<<<<");
-//
-//}
-//
-//@end
