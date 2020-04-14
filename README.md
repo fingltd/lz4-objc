@@ -1,5 +1,10 @@
 # lz4-objc
 
+
+[![Build Status](https://travis-ci.org/fingltd/lz4-objc.svg?branch=master)](https://travis-ci.org/fingltd/lz4-objc)
+[![GitHub issues](https://img.shields.io/github/issues/fingltd/lz4-objc.svg)](https://github.com/fingltd/lz4-objc/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 **lz4-objc** is an `Objective-C` category that provides [lz4](https://github.com/lz4/lz4) compression and decompression algorithms.
 
 ## License
@@ -8,8 +13,8 @@
 
 ## Installation
 
-* Copy the **lz4** directory to your project and link the `lz4.c` and `lz4hc.c` file to your target
-* Copy the **lz4-objc** directory to your project and link the `NSData+lz4.m` file to your target
+* Copy the **lz4** directory to your project and add the `lz4.c` and `lz4hc.c` file to your target
+* Copy the **lz4-objc** directory to your project and add the `NSData+lz4.m` file to your target
 
 ## Usage
 
@@ -34,4 +39,5 @@ NSData *decompressed2 = [compressed decompressLZ4:1024]; // use LZ4_decompress_s
 ## Releases and changelog
 
 * **lz4-objc 1.0.0**
+
     * First release
