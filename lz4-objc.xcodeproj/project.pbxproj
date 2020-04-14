@@ -42,6 +42,7 @@
 		55B490360172029E8B773AAB /* liblz4-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblz4-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B495FD1381A45075CA079A /* NSData+lz4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+lz4.h"; sourceTree = "<group>"; };
 		55B4961655E5BF6A9DEB2409 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		55B49A41CD3D73DD0271F5F1 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 		55B49AC6A8FEA25500C38ADB /* NSData+lz4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+lz4.m"; sourceTree = "<group>"; };
 		64A93BB62440D26D00FC01C0 /* lz4hc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lz4hc.c; sourceTree = "<group>"; };
 		64A93BB72440D26D00FC01C0 /* lz4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lz4.h; sourceTree = "<group>"; };
@@ -92,6 +93,7 @@
 				64A93BD02440EA6600FC01C0 /* LICENSE */,
 				55B4961655E5BF6A9DEB2409 /* README.md */,
 				64A93BD12440EAA400FC01C0 /* .gitignore */,
+				55B49A41CD3D73DD0271F5F1 /* .travis.yml */,
 			);
 			sourceTree = "<group>";
 		};
