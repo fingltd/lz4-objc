@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode11.3
-xcode_destination: platform=iOS Simulator,OS=13.2,name=iPhone 11
+xcode_destination: platform=iOS Simulator,OS=13.2.2,name=iPhone 11
 xcode_project: lz4-objc.xcodeproj
 xcode_scheme: lz4-objc-tests
 xcode_sdk: iphonesimulator13.2
